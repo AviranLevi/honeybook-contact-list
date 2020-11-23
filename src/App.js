@@ -1,40 +1,25 @@
-import Header from './components/header';
+import Header from './pages/header';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import * as actionCreator from './store/actions';
-import ContactCard from './components/contactCard/ContactCard';
 import Loading from './components/loading/Loading';
+import Middle from './pages/middle';
 
 function App() {
   const dispatch = useDispatch();
-  const state = useSelector((state) => state);
-  const { contacts, features } = state;
+  const features = useSelector((state) => state.features);
+
   useEffect(() => {
     dispatch(actionCreator.getContactList());
     dispatch(actionCreator.isLoading(false));
-  }, [actionCreator.getContactList]);
-  const { list } = contacts;
-  console.log(list);
+  }, [dispatch]);
+
   return (
     <div className='app'>
       {features.isLoading ? <Loading /> : null}
 
       <Header />
-      <div className='middle center-items'>
-        {list.length
-          ? list.map((contact) => (
-              <ContactCard
-                profileImage={contact.profile_image}
-                icon={contact.icon}
-                name={contact.name}
-                companyName={contact.company_name}
-                email={contact.email}
-                jobTitle={contact.job}
-                phone={contact.phone}
-              />
-            ))
-          : null}
-      </div>
+      <Middle />
     </div>
   );
 }

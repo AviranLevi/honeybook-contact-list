@@ -1,0 +1,10 @@
+.search-bar {
+  color: $font-color;
+
+  .search-input {
+    border: none;
+  }
+
+  border: 1px solid $primary-color;
+  padding: 1em;
+}

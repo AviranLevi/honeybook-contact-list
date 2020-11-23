@@ -1,2 +1,2 @@
 export { getContactList } from './contacts';
-export { isLoading } from './features';
+export { isLoading, searchContact } from './features';

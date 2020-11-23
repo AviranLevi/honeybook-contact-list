@@ -12,16 +12,14 @@ $object-shadow: 0px 0px 5px -3px #000000;
   position: relative;
   font-family: 'Open Sans', sans-serif;
   overflow: hidden;
-
-  .middle {
-    margin: 7em;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1em;
-  }
 }
 
 .center-items {
   display: grid;
   justify-items: center;
   align-items: center;
+}
+
+input {
+  outline: none;
 }

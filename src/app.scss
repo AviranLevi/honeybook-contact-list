@@ -3,6 +3,9 @@
 @import './assets/_fonts';
 @import './assets/_animations';
 
-@import './components/header/header';
+@import './pages/header/header';
+@import './pages/middle/middle';
+
 @import './components/contactCard/contact-card';
 @import './components/loading/loading';
+@import './components/searchBar/search-bar';
