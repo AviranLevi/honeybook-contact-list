@@ -1,13 +1,14 @@
 import * as actionType from '../actions/types';
 
 const initialState = {
-  list: [],
+  isLoading: true,
 };
 
 const rootReducer = (state = initialState, action) => {
   switch (action.type) {
-    case actionType.GET_CONTACT_LIST:
-      return { ...state, list: action.payload };
+    case actionType.IS_LOADING:
+      return { ...state, isLoading: action.payload };
+
     default:
       return state;
   }

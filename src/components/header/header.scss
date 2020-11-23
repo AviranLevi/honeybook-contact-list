@@ -1,0 +1,10 @@
+.header {
+  height: 10vh;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  background: $header-background-color;
+  box-shadow: $object-shadow;
+  .title {
+    font-size: 30px;
+  }
+}

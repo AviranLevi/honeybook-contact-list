@@ -1,5 +1,8 @@
 @import './assets/reset';
 @import './assets/_base';
 @import './assets/_fonts';
+@import './assets/_animations';
 
-@import './components/header/header.scss';
+@import './components/header/header';
+@import './components/contactCard/contact-card';
+@import './components/loading/loading';

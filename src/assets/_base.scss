@@ -1,7 +1,27 @@
 $primary-color: #f2f1f2;
 $title-color: #000;
 $font-color: grey;
+$header-background-color: #fff;
+$object-shadow: 0px 0px 5px -3px #000000;
 
 .app {
   background: $primary-color;
+  max-width: 100vw;
+  min-height: 100vh;
+  height: fit-content;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+
+  .middle {
+    margin: 7em;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+  }
+}
+
+.center-items {
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }
