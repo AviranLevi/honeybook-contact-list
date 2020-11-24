@@ -1,10 +1,24 @@
 .search-bar {
   color: $font-color;
+  margin-right: 1em;
+  border: 1px solid $primary-color;
+  padding: 1em;
+  width: 20em;
+
+  @include sm {
+    width: 15em;
+  }
+
+  @include xs {
+    width: 13em;
+  }
 
   .search-input {
     border: none;
-  }
+    width: 93%;
 
-  border: 1px solid $primary-color;
-  padding: 1em;
+    @include sm {
+      width: 90%;
+    }
+  }
 }

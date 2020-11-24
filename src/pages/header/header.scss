@@ -4,7 +4,17 @@
   grid-template-columns: repeat(2, 1fr);
   background: $header-background-color;
   box-shadow: $object-shadow;
+  grid-gap: 1em;
+  @include xs {
+    grid-template-columns: 1fr 2fr;
+  }
+
   .title {
     font-size: 30px;
+    margin-left: 1em;
+
+    @include xs {
+      font-size: 1.2em;
+    }
   }
 }
