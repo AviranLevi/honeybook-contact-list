@@ -8,8 +8,7 @@ import App from './App';
 import ContactStore from './store/reducers/contacts';
 import FeaturesStore from './store/reducers/featuers';
 
-const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__({});
-const enhancer = composeEnhancers(applyMiddleware(thunk));
+const enhancer = applyMiddleware(thunk);
 
 const reducers = combineReducers({
   contacts: ContactStore,
