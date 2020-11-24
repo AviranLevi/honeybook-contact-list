@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/honeybook-contact-list/static/css/main.0724a476.chunk.css",
+    "main.css": "/honeybook-contact-list/static/css/main.f0cf3cd6.chunk.css",
     "main.js": "/honeybook-contact-list/static/js/main.4d31dadb.chunk.js",
     "main.js.map": "/honeybook-contact-list/static/js/main.4d31dadb.chunk.js.map",
     "runtime-main.js": "/honeybook-contact-list/static/js/runtime-main.5309fdba.js",
@@ -8,13 +8,13 @@
     "static/js/2.858c27e6.chunk.js": "/honeybook-contact-list/static/js/2.858c27e6.chunk.js",
     "static/js/2.858c27e6.chunk.js.map": "/honeybook-contact-list/static/js/2.858c27e6.chunk.js.map",
     "index.html": "/honeybook-contact-list/index.html",
-    "static/css/main.0724a476.chunk.css.map": "/honeybook-contact-list/static/css/main.0724a476.chunk.css.map",
+    "static/css/main.f0cf3cd6.chunk.css.map": "/honeybook-contact-list/static/css/main.f0cf3cd6.chunk.css.map",
     "static/js/2.858c27e6.chunk.js.LICENSE.txt": "/honeybook-contact-list/static/js/2.858c27e6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5309fdba.js",
     "static/js/2.858c27e6.chunk.js",
-    "static/css/main.0724a476.chunk.css",
+    "static/css/main.f0cf3cd6.chunk.css",
     "static/js/main.4d31dadb.chunk.js"
   ]
 }
