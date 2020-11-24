@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/honeybook-contact-list/static/css/main.f0cf3cd6.chunk.css",
-    "main.js": "/honeybook-contact-list/static/js/main.4d31dadb.chunk.js",
-    "main.js.map": "/honeybook-contact-list/static/js/main.4d31dadb.chunk.js.map",
+    "main.js": "/honeybook-contact-list/static/js/main.753c0d4b.chunk.js",
+    "main.js.map": "/honeybook-contact-list/static/js/main.753c0d4b.chunk.js.map",
     "runtime-main.js": "/honeybook-contact-list/static/js/runtime-main.5309fdba.js",
     "runtime-main.js.map": "/honeybook-contact-list/static/js/runtime-main.5309fdba.js.map",
     "static/js/2.858c27e6.chunk.js": "/honeybook-contact-list/static/js/2.858c27e6.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.5309fdba.js",
     "static/js/2.858c27e6.chunk.js",
     "static/css/main.f0cf3cd6.chunk.css",
-    "static/js/main.4d31dadb.chunk.js"
+    "static/js/main.753c0d4b.chunk.js"
   ]
 }
