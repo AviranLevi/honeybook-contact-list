@@ -5,6 +5,7 @@
   background: $header-background-color;
   box-shadow: $object-shadow;
   grid-gap: 1em;
+
   @include xs {
     grid-template-columns: 1fr 2fr;
   }
