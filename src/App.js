@@ -11,7 +11,6 @@ function App() {
 
   useEffect(() => {
     dispatch(actionCreator.getContactList());
-    dispatch(actionCreator.isLoading(false));
   }, [dispatch]);
 
   return (

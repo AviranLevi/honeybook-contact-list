@@ -14,6 +14,9 @@ const rootReducer = (state = initialState, action) => {
     case actionType.SEARCH_VALUE:
       return { ...state, searchValue: action.payload };
 
+    case actionType.SEARCH_RESULTS:
+      return { ...state, searchResults: action.payload };
+
     default:
       return state;
   }
